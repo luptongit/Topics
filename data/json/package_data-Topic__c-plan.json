@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Topic__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "package_data-Topic__cs.json"
+        ]
+    }
+]

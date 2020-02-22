@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Topics</fullName>
+    <types>
+        <members>Digital_Resource__c.Essential</members>
+        <members>Topic__c.Custom_Compact_Layout</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
+        <members>Topic_Tracking</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Digital_Resource__c.Description__c</members>
+        <members>Digital_Resource__c.Private__c</members>
+        <members>Digital_Resource__c.Resource_Type__c</members>
+        <members>Digital_Resource__c.Source__c</members>
+        <members>Digital_Resource__c.Url__c</members>
+        <members>Topic_Resource__c.Private__c</members>
+        <members>Topic_Resource__c.Resource__c</members>
+        <members>Topic_Resource__c.Topic__c</members>
+        <members>Topic_Skill_Level__c.Context__c</members>
+        <members>Topic_Skill_Level__c.Current_Level__c</members>
+        <members>Topic_Skill_Level__c.Deadline__c</members>
+        <members>Topic_Skill_Level__c.Next_Steps__c</members>
+        <members>Topic_Skill_Level__c.Person__c</members>
+        <members>Topic_Skill_Level__c.Topic__c</members>
+        <members>Topic__c.Description__c</members>
+        <members>Topic__c.Type__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Digital_Resource__c</members>
+        <members>Topic_Resource__c</members>
+        <members>Topic_Skill_Level__c</members>
+        <members>Topic__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Digital_Resource__c</members>
+        <members>Topic_Skill_Level__c</members>
+        <members>Topic__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Digital_Resource_Record_Page</members>
+        <members>Topic_Record_Page</members>
+        <members>Topic_Tracking_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Digital_Resource__c-Digital Resource Layout</members>
+        <members>Topic_Resource__c-Topic Resource Layout</members>
+        <members>Topic_Skill_Level__c-Topic Skill Level Layout</members>
+        <members>Topic__c-Topic Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Digital_Resource__c.All</members>
+        <members>Topic_Skill_Level__c.All</members>
+        <members>Topic__c.All</members>
+        <name>ListView</name>
+    </types>
+    <version>47.0</version>
+</Package>

@@ -1,0 +1,8 @@
+SELECT Name, Description__c, Type__c, 
+(SELECT Name, Resource__c, Topic__c, Private__c
+        Resource__r.Name, Resource__r.Resource_Type__c, 
+        Resource__r.Url__c,
+        Resource__r.Private__c,
+        Resource__r.Description__c,
+        Resource__r.Source__c 
+FROM Topic_Resources__r) FROM Topic__c

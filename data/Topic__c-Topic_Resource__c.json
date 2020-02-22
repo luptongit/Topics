@@ -1,0 +1,702 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef1"
+            },
+            "Name": "Technical Architect Certification",
+            "Type__c": "Certification",
+            "Topic_Resources__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Topic_Resource__c",
+                            "referenceId": "Topic_Resource__cRef1"
+                        },
+                        "Name": "TR-00004",
+                        "Private__c": false,
+                        "Resource__r": {
+                            "attributes": {
+                                "type": "Digital_Resource__c",
+                                "url": "/services/data/v47.0/sobjects/Digital_Resource__c/a0UB0000003JBplMAG"
+                            },
+                            "Name": "Salesforce Architect Journey - Trailhead",
+                            "Resource_Type__c": "Trail",
+                            "Url__c": "https://trailhead.salesforce.com/credentials/architectoverview",
+                            "Private__c": false,
+                            "Description__c": null,
+                            "Source__c": null
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef2"
+            },
+            "Name": "AppExchange",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef3"
+            },
+            "Name": "Apex",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef4"
+            },
+            "Name": "APIs",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef5"
+            },
+            "Name": "Bots",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef6"
+            },
+            "Name": "Big Objects",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef7"
+            },
+            "Name": "Blockchain",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef8"
+            },
+            "Name": "CDC (Change Data Capture)",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef9"
+            },
+            "Name": "Custom Objects",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef10"
+            },
+            "Name": "Data Mask",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef11"
+            },
+            "Name": "Einstein Language",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef12"
+            },
+            "Name": "Einstein Vision",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef13"
+            },
+            "Name": "employee experience bundle?",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef14"
+            },
+            "Name": "Einstein Voice Builder",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef15"
+            },
+            "Name": "Evergreen",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef16"
+            },
+            "Name": "Event Monitoring",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef17"
+            },
+            "Name": "External Objects",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef18"
+            },
+            "Name": "External Services",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef19"
+            },
+            "Name": "Field Audit Trail",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef20"
+            },
+            "Name": "Flow Builder",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Topic_Resource__c",
+                            "referenceId": "Topic_Resource__cRef2"
+                        },
+                        "Name": "TR-00005",
+                        "Private__c": false,
+                        "Resource__r": {
+                            "attributes": {
+                                "type": "Digital_Resource__c",
+                                "url": "/services/data/v47.0/sobjects/Digital_Resource__c/a0UB0000003JBpvMAG"
+                            },
+                            "Name": "Flow Demo - Multi-step Import Flow",
+                            "Resource_Type__c": "Code",
+                            "Url__c": "https://org62.lightning.force.com/lightning/r/0D50M00004hkn6aSAA/view",
+                            "Private__c": false,
+                            "Description__c": "Recently I worked on a demo that involved building an Invokable Flow to process a set of data uploaded into a queue table (called Fileback). I doubt this exact use case will match perfectly for what your customers ask for, but if you'd like to see a flow in action that loops through a queue, and validates data against standard objects and updates the queue status accordingly, this may be the flow for you!",
+                            "Source__c": "Jonathan's Demo he built with Lori"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef21"
+            },
+            "Name": "Heroku Connect",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef22"
+            },
+            "Name": "Heroku Elements",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef23"
+            },
+            "Name": "Heroku Kafka",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef24"
+            },
+            "Name": "Heroku Pipelines",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef25"
+            },
+            "Name": "Heroku Postgres",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef26"
+            },
+            "Name": "Heroku Private Spaces/Shield",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef27"
+            },
+            "Name": "Identity",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef28"
+            },
+            "Name": "LEA-Customers",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef29"
+            },
+            "Name": "LEA-Partners",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef30"
+            },
+            "Name": "Lightning App Builder",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef31"
+            },
+            "Name": "Lightning Experience",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef32"
+            },
+            "Name": "Lightning Sandbox",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef33"
+            },
+            "Name": "Lightning Web Components",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Topic_Resource__c",
+                            "referenceId": "Topic_Resource__cRef3"
+                        },
+                        "Name": "TR-00001",
+                        "Private__c": false,
+                        "Resource__r": {
+                            "attributes": {
+                                "type": "Digital_Resource__c",
+                                "url": "/services/data/v47.0/sobjects/Digital_Resource__c/a0UB0000003JBpWMAW"
+                            },
+                            "Name": "LWC Playground in Quip",
+                            "Resource_Type__c": "Demo",
+                            "Url__c": "https://salesforce.quip.com/MAgnAR2UiZuf",
+                            "Private__c": true,
+                            "Description__c": "This is a really cool feature in quip where you can show off LWC code in a quip document.",
+                            "Source__c": "Org62"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef34"
+            },
+            "Name": "Mobile Publisher",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef35"
+            },
+            "Name": "Mobile SDK",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef36"
+            },
+            "Name": "Object Creator",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef37"
+            },
+            "Name": "Permissions/Profiles",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef38"
+            },
+            "Name": "Platform Encryption",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef39"
+            },
+            "Name": "Platform Events",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef40"
+            },
+            "Name": "Prediction Builder",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef41"
+            },
+            "Name": "Process Builder",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef42"
+            },
+            "Name": "Quick Actions",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef43"
+            },
+            "Name": "Quip for Salesforce",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Topic_Resource__c",
+                            "referenceId": "Topic_Resource__cRef4"
+                        },
+                        "Name": "TR-00002",
+                        "Private__c": false,
+                        "Resource__r": {
+                            "attributes": {
+                                "type": "Digital_Resource__c",
+                                "url": "/services/data/v47.0/sobjects/Digital_Resource__c/a0UB0000003JBpWMAW"
+                            },
+                            "Name": "LWC Playground in Quip",
+                            "Resource_Type__c": "Demo",
+                            "Url__c": "https://salesforce.quip.com/MAgnAR2UiZuf",
+                            "Private__c": true,
+                            "Description__c": "This is a really cool feature in quip where you can show off LWC code in a quip document.",
+                            "Source__c": "Org62"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef44"
+            },
+            "Name": "Reports and Dashboards",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef45"
+            },
+            "Name": "Salesforce CMS",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef46"
+            },
+            "Name": "Salesforce DX CLI",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef47"
+            },
+            "Name": "Salesforce Mobile",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef48"
+            },
+            "Name": "Sandbox",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef49"
+            },
+            "Name": "Search",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef50"
+            },
+            "Name": "Sustainability Cloud",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef51"
+            },
+            "Name": "Standard Lightning Components",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef52"
+            },
+            "Name": "Translation/Labels",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef53"
+            },
+            "Name": "VSCode Extensions",
+            "Type__c": "Salesforce Feature",
+            "Topic_Resources__r": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Topic__c",
+                "referenceId": "Topic__cRef54"
+            },
+            "Name": "Salesforce Release Notes",
+            "Type__c": "Research Topic",
+            "Topic_Resources__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Topic_Resource__c",
+                            "referenceId": "Topic_Resource__cRef5"
+                        },
+                        "Name": "TR-00003",
+                        "Private__c": false,
+                        "Resource__r": {
+                            "attributes": {
+                                "type": "Digital_Resource__c",
+                                "url": "/services/data/v47.0/sobjects/Digital_Resource__c/a0UB0000003JBpgMAG"
+                            },
+                            "Name": "Spring '20 Release Notes",
+                            "Resource_Type__c": "Documentation",
+                            "Url__c": "https://releasenotes.docs.salesforce.com/en-us/spring20/release-notes/salesforce_release_notes.htm",
+                            "Private__c": false,
+                            "Description__c": null,
+                            "Source__c": null
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
