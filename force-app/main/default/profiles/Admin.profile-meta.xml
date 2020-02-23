@@ -32,6 +32,16 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Topic_Skill_Level_History__c.Old_Skill_Level__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Topic_Skill_Level_History__c.Topic_Skill_Level__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Topic_Skill_Level__c.Context__c</field>
         <readable>false</readable>
@@ -52,6 +62,11 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Topic_Skill_Level__c.Skill_Level__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Topic__c.Description__c</field>
         <readable>false</readable>
@@ -65,10 +80,13 @@
         <layout>Digital_Resource__c-Digital Resource Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Skill_Level__c-Skill Level Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Topic_Resource__c-Topic Resource Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>Topic_Skill_Level__c-Topic Skill Level Layout</layout>
+        <layout>Topic_Skill_Level_History__c-Topic Skill Level History Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Topic__c-Topic Layout</layout>
@@ -88,7 +106,25 @@
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
+        <object>Skill_Level__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
         <object>Topic_Resource__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Topic_Skill_Level_History__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -112,6 +148,10 @@
     <tabVisibilities>
         <tab>Digital_Resource__c</tab>
         <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Skill_Level__c</tab>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>Topic_Skill_Level__c</tab>

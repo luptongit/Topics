@@ -12,6 +12,16 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
+                <fullName>Chatter Group</fullName>
+                <default>false</default>
+                <label>Chatter Group</label>
+            </value>
+            <value>
+                <fullName>Chatter Post</fullName>
+                <default>false</default>
+                <label>Chatter Post</label>
+            </value>
+            <value>
                 <fullName>Code</fullName>
                 <default>false</default>
                 <label>Code</label>
@@ -45,11 +55,6 @@
                 <fullName>Video</fullName>
                 <default>false</default>
                 <label>Video</label>
-            </value>
-            <value>
-                <fullName>Chatter Group</fullName>
-                <default>false</default>
-                <label>Chatter Group</label>
             </value>
         </valueSetDefinition>
     </valueSet>

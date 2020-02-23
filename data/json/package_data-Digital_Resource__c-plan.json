@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Digital_Resource__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "package_data-Digital_Resource__cs.json"
+        ]
+    }
+]
