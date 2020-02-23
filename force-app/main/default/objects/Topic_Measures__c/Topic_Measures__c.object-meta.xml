@@ -128,22 +128,16 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Topic_Skill_Level_Record_Page</content>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
+        <type>Default</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Topic_Skill_Level_Record_Page</content>
         <formFactor>Small</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>true</allowInChatterGroups>
@@ -159,22 +153,14 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Topic Skill Level</label>
+    <label>Topic Measures</label>
     <nameField>
-        <displayFormat>SL-{0000}</displayFormat>
-        <label>Skill Level</label>
+        <label>Measure</label>
         <trackHistory>false</trackHistory>
-        <type>AutoNumber</type>
+        <type>Text</type>
     </nameField>
-    <pluralLabel>Topic Skill Levels</pluralLabel>
-    <searchLayouts>
-        <searchResultsAdditionalFields>Person__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Topic__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Skill_Level__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Context__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Next_Steps__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>Deadline__c</searchResultsAdditionalFields>
-    </searchLayouts>
+    <pluralLabel>Topic Measures</pluralLabel>
+    <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

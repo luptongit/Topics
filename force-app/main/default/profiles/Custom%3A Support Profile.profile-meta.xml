@@ -27,6 +27,16 @@
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>true</editable>
+        <field>Topic_Measures__c.Importance__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Topic_Measures__c.Measure_Details__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>false</editable>
         <field>Topic_Resource__c.Private__c</field>
         <readable>false</readable>
@@ -81,6 +91,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Skill_Level__c-Skill Level Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Topic_Measures__c-Topic Measures Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Topic_Resource__c-Topic Resource Layout</layout>
