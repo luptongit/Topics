@@ -6,6 +6,7 @@
                 "referenceId": "Topic__cRef1"
             },
             "Name": "Technical Architect Certification",
+            "Description__c": "Certification Technical Architect The Salesforce Technical Architect possesses broad knowledge across multiple development platforms and draws on their skills and experience to assess customer requirements and architecture in order to design secure, high-",
             "Type__c": "Certification"
         },
         {
@@ -22,6 +23,7 @@
                 "referenceId": "Topic__cRef3"
             },
             "Name": "Apex",
+            "Description__c": "Apex is a strongly typed, object-oriented programming language that allows developers to execute flow and transaction control statements on the Lightning Platform server, in conjunction with calls to the API.",
             "Type__c": "Salesforce Feature"
         },
         {
@@ -46,6 +48,7 @@
                 "referenceId": "Topic__cRef6"
             },
             "Name": "Big Objects",
+            "Description__c": "A big object stores and manages massive amounts of data on the Salesforce platform. You can archive data from other objects or bring massive datasets from outside systems into a big object to get a full view of your customers. Clients and external systems",
             "Type__c": "Salesforce Feature"
         },
         {
@@ -101,7 +104,8 @@
                 "type": "Topic__c",
                 "referenceId": "Topic__cRef13"
             },
-            "Name": "employee experience bundle?"
+            "Name": "employee experience bundle?",
+            "Type__c": "Salesforce Feature"
         },
         {
             "attributes": {
@@ -157,6 +161,7 @@
                 "referenceId": "Topic__cRef20"
             },
             "Name": "Flow Builder",
+            "Description__c": "A flow is the part of Lightning Flow that collects data and performs actions in your Salesforce org or an external system. Lightning Flow provides two types of flows: screen flows and autolaunched flows.",
             "Type__c": "Salesforce Feature"
         },
         {
@@ -261,6 +266,7 @@
                 "referenceId": "Topic__cRef33"
             },
             "Name": "Lightning Web Components",
+            "Description__c": "LWC",
             "Type__c": "Salesforce Feature"
         },
         {

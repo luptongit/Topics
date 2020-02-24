@@ -33,7 +33,7 @@
             </value>
             <value>
                 <fullName>Documentation</fullName>
-                <default>false</default>
+                <default>true</default>
                 <label>Documentation</label>
             </value>
             <value>
@@ -42,9 +42,19 @@
                 <label>Examples</label>
             </value>
             <value>
+                <fullName>Licensing / Pricing (SKU)</fullName>
+                <default>false</default>
+                <label>Licensing / Pricing (SKU)</label>
+            </value>
+            <value>
                 <fullName>Other</fullName>
                 <default>false</default>
                 <label>Other</label>
+            </value>
+            <value>
+                <fullName>Portal</fullName>
+                <default>false</default>
+                <label>Portal</label>
             </value>
             <value>
                 <fullName>Trail</fullName>

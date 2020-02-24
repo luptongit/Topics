@@ -32,8 +32,9 @@ sfdx force:data:tree:export -q "SELECT Name, Description__c, Type__c,
 
 sfdx force:data:tree:export -q "SELECT Name, Resource_Type__c, Url__c, Private__c, Description__c, Source__c, (SELECT Name,  Private__c FROM Topic_Resources1__r) FROM Digital_Resource__c" -d ./data/json -u DevHub --prefix package_data --plan
 
-sfdx force:data:tree:export -q "SELECT Name, Description__c, Type__c FROM Topic__c" -d ./data/json -u DevHub --prefix package_data --plan
-sfdx force:data:tree:export -q "SELECT Name, Resource_Type__c, Url__c, Private__c, Description__c, Source__c FROM Digital_Resource__c" -d ./data/json -u DevHub --prefix package_data --plan
+
+sfdx force:data:tree:export -q "SELECT Name, Description__c, Type__c FROM Topic__c" -d ./data/json -u Topics --prefix package_data --plan
+sfdx force:data:tree:export -q "SELECT Name, Resource_Type__c, Url__c, Private__c, Description__c, Source__c FROM Digital_Resource__c" -d ./data/json -u Topics --prefix package_data --plan
 sfdx force:data:tree:export -q "SELECT Name, Resource__r.Id, Topic__r.Id, Private__c FROM Topic_Resource__c" -d ./data/json -u DevHub --prefix package_data --plan
 
 

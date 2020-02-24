@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Apex_Assign_Digital_Resource_to_Salesforce_Features</name>
+        <label>Apex:  Assign Digital Resource to Salesforce Features</label>
+        <locationX>415</locationX>
+        <locationY>50</locationY>
+        <actionName>clsTopics</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>Assignment_Complete</targetReference>
+        </connector>
+        <inputParameters>
+            <name>digitalResources</name>
+            <value>
+                <elementReference>Get_Digital_Resource_Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <constants>
+        <name>TopicType_SalesforceFeature</name>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Salesforce Feature</stringValue>
+        </value>
+    </constants>
+    <interviewLabel>Bulk Assign Digital Resources to Topics {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Bulk Assign Digital Resources to Topics</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Get_Digital_Resource_Record</name>
+        <label>Get Digital Resource Record</label>
+        <locationX>127</locationX>
+        <locationY>210</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Bulk_Assign_Resource_to_Topics</targetReference>
+        </connector>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>inputDigitalResourceIdText</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Digital_Resource__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <screens>
+        <name>Assignment_Complete</name>
+        <label>Assignment Complete</label>
+        <locationX>600</locationX>
+        <locationY>50</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>Done</name>
+            <fieldText>&lt;p&gt;Done!&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <description>Quickly assign this Digital Resource to multiple topics</description>
+        <name>Bulk_Assign_Resource_to_Topics</name>
+        <label>Bulk Assign Resource to Topics</label>
+        <locationX>216</locationX>
+        <locationY>50</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Apex_Assign_Digital_Resource_to_Salesforce_Features</targetReference>
+        </connector>
+        <fields>
+            <name>Instructions</name>
+            <fieldText>&lt;p&gt;Click Next to Assign this Digital Resource to all Salesforce Features&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>50</locationX>
+        <locationY>50</locationY>
+        <connector>
+            <targetReference>Get_Digital_Resource_Record</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>inputDigitalResource</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+        <objectType>Digital_Resource__c</objectType>
+    </variables>
+    <variables>
+        <name>inputDigitalResourceIdText</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

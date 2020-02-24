@@ -54,7 +54,8 @@
             "Name": "Salesforce Architect Journey - Trailhead",
             "Resource_Type__c": "Trail",
             "Url__c": "https://trailhead.salesforce.com/credentials/architectoverview",
-            "Private__c": false
+            "Private__c": false,
+            "Description__c": "Salesforce architect credentials comprise three tiers of certification that recognize specialized knowledge and skills, as well as your growing expertise in the Salesforce platform:\nThe Salesforce Architecture Designer credentials validate knowledge and expertise in particular specializations.\nThe Salesforce Application Architect and System Architect certifications recognize professionals who possess expertise in a domain area.\nThe Salesforce Technical Architect (CTA) credential is the pinnacle certification for those who demonstrate the knowledge, skills, and capabilities to design and build high-performance technical solutions on the Salesforce platform across all areas of domain expertise."
         },
         {
             "attributes": {
@@ -67,6 +68,61 @@
             "Private__c": true,
             "Description__c": "This is a really cool feature in quip where you can show off LWC code in a quip document.",
             "Source__c": "Org62"
+        },
+        {
+            "attributes": {
+                "type": "Digital_Resource__c",
+                "referenceId": "Digital_Resource__cRef7"
+            },
+            "Name": "How to Debug LWC",
+            "Resource_Type__c": "Documentation",
+            "Url__c": "https://developer.salesforce.com/blogs/2019/02/debug-your-lightning-web-components.html",
+            "Private__c": false,
+            "Description__c": "How to Debug Lightning Web Components"
+        },
+        {
+            "attributes": {
+                "type": "Digital_Resource__c",
+                "referenceId": "Digital_Resource__cRef8"
+            },
+            "Name": "Apex Developer Guide",
+            "Resource_Type__c": "Documentation",
+            "Url__c": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_dev_guide.htm",
+            "Private__c": false
+        },
+        {
+            "attributes": {
+                "type": "Digital_Resource__c",
+                "referenceId": "Digital_Resource__cRef9"
+            },
+            "Name": "Development Lifecycle and Deployment Designer Study Guide",
+            "Resource_Type__c": "Documentation",
+            "Url__c": "https://docs.google.com/document/d/14zqwsmPf-urgF5JZTybfRRf6ETIYHik_e3aayDmsxjI/edit",
+            "Private__c": false,
+            "Description__c": "Study guide for Certification",
+            "Source__c": "Andy Anderson"
+        },
+        {
+            "attributes": {
+                "type": "Digital_Resource__c",
+                "referenceId": "Digital_Resource__cRef10"
+            },
+            "Name": "External Identity Pricing & FAQ",
+            "Resource_Type__c": "Licensing / Pricing (SKU)",
+            "Url__c": "https://salesforce.quip.com/veDeAhGra94V",
+            "Private__c": false
+        },
+        {
+            "attributes": {
+                "type": "Digital_Resource__c",
+                "referenceId": "Digital_Resource__cRef11"
+            },
+            "Name": "LWC Trailmix",
+            "Resource_Type__c": "Trail",
+            "Url__c": "http://sforce.co/lwc",
+            "Private__c": false,
+            "Description__c": "Great Lightning Web Component Trailmix produced by Salesforce Trailhead",
+            "Source__c": "Salesforce Trailhead"
         }
     ]
 }

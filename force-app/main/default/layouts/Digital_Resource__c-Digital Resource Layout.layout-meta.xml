@@ -55,6 +55,7 @@
     </layoutSections>
     <relatedLists>
         <fields>Topic__c.NAME</fields>
+        <fields>Topic__c.Type__c</fields>
         <relatedList>Topic_Resource__c.Resource__c</relatedList>
     </relatedLists>
     <relatedLists>
@@ -85,7 +86,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00hB0000001UTN7</masterLabel>
+        <masterLabel>00h1g000000qIY0</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>0</sizeY>
         <summaryLayoutStyle>Default</summaryLayoutStyle>

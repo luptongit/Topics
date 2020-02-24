@@ -46,6 +46,7 @@
     </platformActionList>
     <relatedLists>
         <fields>Digital_Resource__c.NAME</fields>
+        <fields>Digital_Resource__c.Resource_Type__c</fields>
         <fields>Digital_Resource__c.Url__c</fields>
         <relatedList>Topic_Resource__c.Topic__c</relatedList>
     </relatedLists>
