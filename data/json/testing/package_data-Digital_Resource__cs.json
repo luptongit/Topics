@@ -130,18 +130,6 @@
                 "type": "Digital_Resource__c",
                 "referenceId": "Digital_Resource__cRef12"
             },
-            "Name": "Sharing and Visibility Designer Study Guide",
-            "Resource_Type__c": "Documentation",
-            "Url__c": "https://docs.google.com/document/d/1lYUWfYM7XoAILwEQL7mulGinVUV9OuodFP82ndsITCI/edit",
-            "Private__c": false,
-            "Description__c": "Study Guide from Chris McKrill to study for Sharing Cert",
-            "Source__c": "Chris McKrill"
-        },
-        {
-            "attributes": {
-                "type": "Digital_Resource__c",
-                "referenceId": "Digital_Resource__cRef13"
-            },
             "Name": "Apex Developer Guide",
             "Resource_Type__c": "Documentation",
             "Url__c": "https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_dev_guide.htm",
@@ -150,7 +138,7 @@
         {
             "attributes": {
                 "type": "Digital_Resource__c",
-                "referenceId": "Digital_Resource__cRef14"
+                "referenceId": "Digital_Resource__cRef13"
             },
             "Name": "Platform First Call Deck - FY21",
             "Resource_Type__c": "Other",
@@ -160,7 +148,7 @@
         {
             "attributes": {
                 "type": "Digital_Resource__c",
-                "referenceId": "Digital_Resource__cRef15"
+                "referenceId": "Digital_Resource__cRef14"
             },
             "Name": "Development Lifecycle and Deployment Designer Study Guide",
             "Resource_Type__c": "Documentation",
@@ -172,7 +160,7 @@
         {
             "attributes": {
                 "type": "Digital_Resource__c",
-                "referenceId": "Digital_Resource__cRef16"
+                "referenceId": "Digital_Resource__cRef15"
             },
             "Name": "Customer 360 Data Manager Demo Snapshot",
             "Resource_Type__c": "Video",
@@ -183,7 +171,7 @@
         {
             "attributes": {
                 "type": "Digital_Resource__c",
-                "referenceId": "Digital_Resource__cRef17"
+                "referenceId": "Digital_Resource__cRef16"
             },
             "Name": "External Identity Pricing & FAQ",
             "Resource_Type__c": "Licensing / Pricing (SKU)",
@@ -193,7 +181,7 @@
         {
             "attributes": {
                 "type": "Digital_Resource__c",
-                "referenceId": "Digital_Resource__cRef18"
+                "referenceId": "Digital_Resource__cRef17"
             },
             "Name": "Price List - Live",
             "Resource_Type__c": "Licensing / Pricing (SKU)",
@@ -204,7 +192,7 @@
         {
             "attributes": {
                 "type": "Digital_Resource__c",
-                "referenceId": "Digital_Resource__cRef19"
+                "referenceId": "Digital_Resource__cRef18"
             },
             "Name": "Lightning Web Components (LWC) Placemat",
             "Resource_Type__c": "Documentation",
@@ -215,7 +203,7 @@
         {
             "attributes": {
                 "type": "Digital_Resource__c",
-                "referenceId": "Digital_Resource__cRef20"
+                "referenceId": "Digital_Resource__cRef19"
             },
             "Name": "LWC Trailmix",
             "Resource_Type__c": "Trail",

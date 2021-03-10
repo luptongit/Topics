@@ -52,9 +52,24 @@
                 <label>Other</label>
             </value>
             <value>
+                <fullName>Partner</fullName>
+                <default>false</default>
+                <label>Partner</label>
+            </value>
+            <value>
                 <fullName>Portal</fullName>
                 <default>false</default>
                 <label>Portal</label>
+            </value>
+            <value>
+                <fullName>Slides / Powerpoint</fullName>
+                <default>false</default>
+                <label>Slides / Powerpoint</label>
+            </value>
+            <value>
+                <fullName>Study Guide</fullName>
+                <default>false</default>
+                <label>Study Guide</label>
             </value>
             <value>
                 <fullName>Trail</fullName>

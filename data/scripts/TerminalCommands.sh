@@ -1,3 +1,7 @@
+https://salesforce.quip.com/iKE7AbuMS2iF --> GIT COMMANDS
+https://guides.github.com/activities/hello-world/ --> GIT DEMO 
+
+
 sfdx force:org:list
 sfdx force:mdapi:retrieve -s -r ./mdapipkg -u jlupton-xpnc@force.com -p Topics
 unzip ./mdapipkg/unpackaged.zip -d ./mdapipkg/source
@@ -28,9 +32,12 @@ sfdx force:data:tree:export -q "SELECT Name, Description__c, Type__c,
 FROM Topic_Resources__r) FROM Topic__c" -d ./data/json -u DevHub --prefix package_data --plan
 
 sfdx force:data:tree:export -q "SELECT Name, Description__c, Type__c, 
-(SELECT Name,  Private__c FROM Topic_Resources__r) FROM Topic__c" -d ./data/json -u DevHub --prefix package_data --plan
+    (SELECT Name,  Private__c FROM Topic_Resources__r) FROM Topic__c" 
+    -d ./data/json/testing -u Topics --prefix package_data --plan
 
-sfdx force:data:tree:export -q "SELECT Name, Resource_Type__c, Url__c, Private__c, Description__c, Source__c, (SELECT Name,  Private__c FROM Topic_Resources1__r) FROM Digital_Resource__c" -d ./data/json -u DevHub --prefix package_data --plan
+sfdx force:data:tree:export -q "SELECT Name, Resource_Type__c, Url__c, Private__c, 
+    Description__c, Source__c, (SELECT Name,  Private__c FROM Topic_Resources1__r) 
+    FROM Digital_Resource__c" -d ./data/json/testing -u Topics --prefix package_data --plan
 
 
 sfdx force:data:tree:export -q "SELECT Name, Description__c, Type__c FROM Topic__c" -d ./data/json -u Topics --prefix package_data --plan
@@ -40,3 +47,11 @@ sfdx force:data:tree:export -q "SELECT Name, Resource__r.Id, Topic__r.Id, Privat
 
 sfdx force:data:tree:import -u Topics --plan data/json/package_data-Digital_Resource__c-plan.json
 
+sfdx plugins:install https://github.com/stomita/sfdx-migration-automatic
+
+sfdx automig:dump -u Topics --objects Topic__c,Digital_Resource__c,Topic_Resource__c,Topic_Measures__c -d ./data/automig3
+sfdx automig:load -u Topics -d ./data/automig --deletebeforeload
+sfdx automig:load --help
+
+sfdx automig:dump -u Topics --objects Topic__c,Digital_Resource__c,Topic_Resource__c -d ./data/automig3
+sfdx automig:load -u Topics -d ./data/automig3 --deletebeforeload
