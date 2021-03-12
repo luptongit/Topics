@@ -1,39 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Type__c</fullName>
+    <fullName>Cloud__c</fullName>
     <externalId>false</externalId>
-    <label>Type</label>
+    <label>Cloud</label>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>
+        <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Salesforce Feature</fullName>
+                <fullName>Platform</fullName>
                 <default>true</default>
-                <label>Salesforce Feature</label>
+                <label>Platform</label>
             </value>
             <value>
-                <fullName>Technology</fullName>
+                <fullName>Sales</fullName>
                 <default>false</default>
-                <label>Technology</label>
+                <label>Sales</label>
             </value>
             <value>
-                <fullName>Research Topic</fullName>
+                <fullName>Service</fullName>
                 <default>false</default>
-                <label>Research Topic</label>
+                <label>Service</label>
             </value>
             <value>
-                <fullName>Certification</fullName>
+                <fullName>Experience</fullName>
                 <default>false</default>
-                <label>Certification</label>
+                <label>Experience</label>
             </value>
             <value>
-                <fullName>Salesforce Product</fullName>
+                <fullName>Commerce</fullName>
                 <default>false</default>
-                <label>Salesforce Product</label>
+                <label>Commerce</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
             </value>
         </valueSetDefinition>
     </valueSet>

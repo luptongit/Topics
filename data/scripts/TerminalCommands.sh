@@ -49,9 +49,20 @@ sfdx force:data:tree:import -u Topics --plan data/json/package_data-Digital_Reso
 
 sfdx plugins:install https://github.com/stomita/sfdx-migration-automatic
 
-sfdx automig:dump -u Topics --objects Topic__c,Digital_Resource__c,Topic_Resource__c,Topic_Measures__c -d ./data/automig3
+sfdx automig:dump -u Topics --objects Topic__c,Digital_Resource__c,Topic_Resource__c,Topic_Measures__c,Skill_Level__c -d ./data/automig4
 sfdx automig:load -u Topics -d ./data/automig --deletebeforeload
 sfdx automig:load --help
 
 sfdx automig:dump -u Topics --objects Topic__c,Digital_Resource__c,Topic_Resource__c -d ./data/automig3
 sfdx automig:load -u Topics -d ./data/automig3 --deletebeforeload
+
+sfdx automig:load -u ScratchTopics -d ./data/automig3 --deletebeforeload
+sfdx automig:dump -u ScratchTopics2 --objects Topic__c,Digital_Resource__c,Topic_Resource__c,Topic_Measures__c,Skill_Level__c -d ./data/automig4
+
+-------------------------
+chmod +x orgInit.sh 
+./orgInit.sh
+
+-------------------------
+
+https://hosted-scratch.herokuapp.com/launch?template=https://github.com/mshanemc/custom-objects

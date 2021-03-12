@@ -4,6 +4,7 @@
     <externalId>false</externalId>
     <label>Resource Type</label>
     <required>true</required>
+    <trackFeedHistory>true</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
@@ -80,6 +81,11 @@
                 <fullName>Video</fullName>
                 <default>false</default>
                 <label>Video</label>
+            </value>
+            <value>
+                <fullName>Quip</fullName>
+                <default>false</default>
+                <label>Quip</label>
             </value>
         </valueSetDefinition>
     </valueSet>

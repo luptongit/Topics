@@ -167,8 +167,10 @@
     </nameField>
     <pluralLabel>Topics</pluralLabel>
     <searchLayouts>
+        <searchResultsAdditionalFields>Cloud__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Type__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Description__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Key_Words__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

@@ -3,8 +3,9 @@
     <fullName>Valid_Until__c</fullName>
     <description>This resources validity may change at this date</description>
     <externalId>false</externalId>
-    <label>Valid Until</label>
+    <label>Validate On</label>
     <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Date</type>
