@@ -65,4 +65,4 @@ chmod +x orgInit.sh
 
 -------------------------
 
-https://hosted-scratch.herokuapp.com/launch?template=https://github.com/mshanemc/custom-objects
+https://hosted-scratch.herokuapp.com/launch?template=https://github.com/luptongit/Topics
